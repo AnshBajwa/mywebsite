@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books - AA E-Commerce</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .navbar-brand-container { display: flex; justify-content: space-between; align-items: center; width: 100%; padding: 10px; }
+        .books-heading { color: #007bff; font-size: 1.2rem; margin-left: auto; }
+        .product-row { display: flex; justify-content: center; gap: 20px; margin-top: 20px; }
+        .product-card { border: 1px solid #ddd; padding: 15px; border-radius: 10px; text-align: center; width: 250px; font-size: 14px; }
+        .product-card img { width: 150px; height: auto; border-radius: 5px; }
+        .buy-button { margin-top: 10px; font-size: 14px; padding: 8px 12px; }
+        .back-button { margin-top: 15px; font-size: 14px; padding: 8px 12px; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container navbar-brand-container">
+            <a class="navbar-brand" href="index.html">AA E-Commerce</a>
+            <h1 class="books-heading">WELCOME TO BOOKS SECTION</h1>
+        </div>
+    </nav>
+
+    <div class="container">
+        <button onclick="history.back()" class="btn btn-secondary back-button">Back</button>
+       
+        <div class="product-row">
+            <div class="product-card">
+                <img src="book2.webp" alt="Stock Investing Mastermind">
+                <h3>Stock Investing Mastermind Beginners Handbook</h3>
+                <p><strong>Original Price:</strong> <s>₹2,999</s></p>
+                <p><strong>Discounted Price:</strong> ₹1,450 (50% Off)</p>
+                <p><strong>Available On:</strong> Amazon</p>
+                <a href="https://www.amazon.in/Stock-Investing-Mastermind-Zebra-Learn/dp/B0BGPP759D" class="btn btn-primary buy-button">Buy Now</a>
+            </div>
+
+            <div class="product-card">
+                <img src="books1.webp" alt="Rich Dad Poor Dad">
+                <h3>Rich Dad Poor Dad (English)</h3>
+                <p><strong>Price:</strong> ₹237</p>
+                <p><strong>Author:</strong> Kiyosaki Robert T.</p>
+                <p><strong>Available On:</strong> Flipkart</p>
+                <a href="https://www.flipkart.com/rich-dad-poor-financial-intelligence/p/itmfeesg9hzqqetb?pid=9781612680194&lid=LSTBOK9781612680194UCHPDC" class="btn btn-primary buy-button">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
